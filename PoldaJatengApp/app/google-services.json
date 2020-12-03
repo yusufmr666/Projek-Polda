@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "744562182082",
+    "firebase_url": "https://projekpolda.firebaseio.com",
+    "project_id": "projekpolda",
+    "storage_bucket": "projekpolda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:744562182082:android:016f2be1159ae4e301785b",
+        "android_client_info": {
+          "package_name": "com.example.poldajatengapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "744562182082-of563kn930o40speg41ash05hle0pgtr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2bnOgh-ftrsYlV0cmpNSzZDR_uKtdG2g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "744562182082-of563kn930o40speg41ash05hle0pgtr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

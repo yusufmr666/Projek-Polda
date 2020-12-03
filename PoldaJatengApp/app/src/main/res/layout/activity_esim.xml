@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".esimActivity">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/oldBrown">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scaleType="center"
+                android:src="@drawable/esim_logo" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20pt"
+                android:layout_marginBottom="5pt"
+                android:layout_marginTop="20pt"
+                android:text="@string/nama"
+                android:textColor="@color/white"
+                />
+
+            <EditText
+                android:id="@+id/namasim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20pt"
+                android:layout_marginRight="20pt"
+                android:background="@drawable/btnnt"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20pt"
+                android:layout_marginBottom="5pt"
+                android:layout_marginTop="20pt"
+                android:text="@string/nik"
+                android:textColor="@color/white"/>
+
+            <EditText
+                android:id="@+id/nik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20pt"
+                android:layout_marginRight="20pt"
+                android:inputType="number"
+                android:background="@drawable/btnnt"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20pt"
+                android:layout_marginBottom="5pt"
+                android:layout_marginTop="20pt"
+                android:text="@string/tempat_taggal_lahir"
+                android:textColor="@color/white"/>
+
+            <EditText
+                android:id="@+id/ttl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20pt"
+                android:layout_marginRight="20pt"
+                android:background="@drawable/btnnt"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20pt"
+                android:layout_marginBottom="5pt"
+                android:layout_marginTop="20pt"
+                android:text="@string/alamat"
+                android:textColor="@color/white"/>
+
+            <EditText
+                android:id="@+id/alam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20pt"
+                android:layout_marginRight="20pt"
+                android:background="@drawable/btnn"/>
+
+            <Button
+                android:id="@+id/btnsel"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_marginTop="20pt"
+                android:layout_marginEnd="20pt"
+                android:layout_marginBottom="20pt"
+                android:text="@string/simpan" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
